@@ -1,5 +1,5 @@
 {
-  "name": "template-component-library-tutorial",
+  "name": "@franxplore/react-library-tutorial",
   "version": "0.0.1",
   "description": "react component library tutorial",
   "scripts": {
@@ -26,5 +26,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/franxplore/react-library-tutorial"
+  }
 }
