@@ -1,0 +1,7 @@
+button {
+  background-color: hsl(220deg, 100%, 60%);
+  border-color: darkblue;
+  color: grey;
+  padding: 1rem;
+  font-size: large;
+}
