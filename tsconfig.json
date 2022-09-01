@@ -109,5 +109,9 @@
     "moduleResolution": "Node", //possibly change to "node"
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
-  }
+  },
+  "exclude": [
+    "src/stories",
+    "**/*.stories.tsx"
+  ],
 }
