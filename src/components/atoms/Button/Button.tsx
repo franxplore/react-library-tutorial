@@ -3,7 +3,7 @@ import React from 'react';
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 
-interface ButtonProps {
+export interface ButtonProps {
     label: string;
     onClick: () => void;
 }
