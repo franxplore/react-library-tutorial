@@ -8,7 +8,7 @@ interface ButtonProps {
     onClick: () => void;
 }
 
-const ButtonStyled = styled.button`
+const StyledButton = styled.button`
   border-color: red;
   background-color: aqua;
   border-width: 10px;
@@ -17,7 +17,7 @@ const ButtonStyled = styled.button`
 const Button = (props: ButtonProps) => {
   const {label, onClick} = props;  
   return (
-    <ButtonStyled onClick={onClick}>{label}</ButtonStyled>
+    <StyledButton onClick={onClick}>{label}</StyledButton>
   );
 }
 
