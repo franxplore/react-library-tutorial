@@ -5654,15 +5654,23 @@ tags.forEach(function (tagName) {
   newStyled[tagName] = newStyled(tagName);
 });
 
-const ButtonStyled = newStyled.button `
+const StyledButton = newStyled.button `
   border-color: red;
   background-color: aqua;
   border-width: 10px;
 `;
 const Button = (props) => {
     const { label, onClick } = props;
-    return (React.createElement(ButtonStyled, { onClick: onClick }, label));
+    return (React.createElement(StyledButton, { onClick: onClick }, label));
 };
 
-export { Button };
+const Typography = (props) => {
+    const { children, fontWeight } = props;
+    newStyled.h1 `
+
+  `;
+    return (React.createElement("h1", null, children));
+};
+
+export { Button, Typography };
 //# sourceMappingURL=index.js.map
