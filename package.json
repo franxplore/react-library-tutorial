@@ -1,6 +1,6 @@
 {
   "name": "@franxplore/react-library-tutorial",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "react component library tutorial",
   "scripts": {
     "rollup": "rollup -c",
