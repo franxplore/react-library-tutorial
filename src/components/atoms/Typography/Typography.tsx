@@ -9,9 +9,7 @@ export type TypographyProps = {
 
 const Typography = (props: TypographyProps) => {
   const {children, fontWeight} = props;
-  const StyledTypography = styled.h1`
-
-  `
+  
   return (
     <h1>{children}</h1>
   )
