@@ -1,13 +1,20 @@
 import React from 'react';
+import './Button.css';
+import { css } from "@emotion/react";
 
 interface ButtonProps {
     label: string;
+    onClick: () => void;
 }
 
+const ButtonStyled = css`
+  border-color: red;
+`
+
 const Button = (props: ButtonProps) => {
-  const {label} = props;  
+  const {label, onClick} = props;  
   return (
-    <button>{label}</button>
+    <ButtonStyled onClick={onClick}>{label}</ButtonStyled>
   );
 }
 
